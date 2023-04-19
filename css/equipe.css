@@ -1,0 +1,54 @@
+#padrao {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+h2 span {
+    color: #65b8a6;
+    margin-left: 10px;
+}
+
+#titulo {
+    color: #260729;
+    margin-left: 45px;
+}
+
+#containerequipe {
+ background-color: white;
+ margin-top: 20px;
+ margin-left: 50px;
+ margin-right: 50px;
+ border-radius: 10px;
+ width: 1420px;
+ height: 400px;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ display: flex;
+ 
+}
+
+#padrao{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 40px;
+}
+#padrao1{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+#padrao2{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+.virus {
+    padding-left: 200px;
+}
+
+#imagemv {
+    display: flex;
+    flex-direction: column;
+}

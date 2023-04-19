@@ -1,0 +1,33 @@
+p{
+    font-family: txt;
+}
+
+#container-sb{  
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+h2{
+    margin-left: 70px;
+}
+
+span{
+    color: #65b8a6;
+    opacity: 100%;
+}
+
+#container-sb img{
+    margin-left: 350px;
+    width: 600px;
+}
+
+#img{
+    display: flex;
+    flex-direction: row;
+}
