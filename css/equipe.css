@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 #padrao {
     margin-left: 10px;
     font-size: 20px;
@@ -15,9 +19,8 @@ h2 span {
 
 #containerequipe {
  background-color: white;
- margin-top: 20px;
- margin-left: 50px;
- margin-right: 50px;
+ margin-left: 70px;
+ margin-right: 70px;
  border-radius: 10px;
  width: 1420px;
  height: 400px;
@@ -31,17 +34,20 @@ h2 span {
     padding: 10px;
     margin: 10px;
     padding-top: 40px;
+    font-family: txt;
 }
 #padrao1{
     font-size: 20px;
     padding: 10px;
     margin: 10px;
+    font-family: txt;
 }
 #padrao2{
     font-size: 20px;
     padding: 10px;
     margin: 10px;
     margin-bottom: 40px;
+    font-family: txt;
 }
 
 .virus {
@@ -51,4 +57,87 @@ h2 span {
 #imagemv {
     display: flex;
     flex-direction: column;
+}
+
+#titulo{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+@media (max-width:1280px) AND (min-width:215px) {
+    body{
+        margin: 0px;
+    }
+    header {
+        width: 100%;
+        padding: 0px;
+    }
+    #logo {
+        width: 100px;
+        display: flex;
+        align-items: center;
+    }
+    #logo img {
+        width: 30%;
+    }
+
+    #logo h1 {
+        font-size: inherit;
+    }
+    #containerequipe {
+        width: auto;
+    }
+
+    #containerequipe p{
+        font-size: 10px;
+    }
+
+
+    #grande {
+        height: 10px;
+        width: auto;
+    }
+
+    #navegacao {
+        font-size: initial;
+    }
+
+    h2{
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #titulo{
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
+
+@media (min-width: 280px) and (max-width: 653px) { 
+    #padrao {
+        font-size: 12px;
+    }
+    #padrao2 {
+        font-size: 12px;
+    }
+    #padrao1 {
+        font-size: 12px;
+    }
+
+    #navegacao {
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    #containerequipe p{
+        font-size: 20px;
+    }
 }

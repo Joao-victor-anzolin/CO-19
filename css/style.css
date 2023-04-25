@@ -65,10 +65,197 @@ nav a:hover{
 
 }
 
-h1, h2{
+h1, h2, h3{
     color:#260729;
 }
 
 h2{
+    margin-top: 50px;
     margin-left: 70px;
+}
+
+h3{
+    margin-left: 70px;
+}
+
+.mapa{
+    border-radius: 10px;
+    margin: 70px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+button{
+    background-color:#65b8a6 ;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family:txt;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    opacity: 90%;
+}
+
+button:hover{
+    opacity: 100%;
+}
+
+#graf-pz{
+    border-radius: 20px;
+    height: 500px;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#tabela-dados {
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 35px;
+}
+
+th {
+    background-color: #65b8a6;
+    color: white;
+}
+
+tr{
+    background-color: ghostwhite;
+}
+
+.linhas{
+    font-family: txt;
+    padding: 10px 20px 10px 20px;
+}
+
+#graf-pz{
+    width: 90%;
+}
+
+.apagados{
+    display: block;
+}
+
+
+/*Responsividade*/
+
+
+@media (max-width:1280px) AND (min-width:215px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+        align-items: center;
+    }
+    header {
+        width: 100%;
+        padding: 0px;
+    }
+    #logo {
+        width: 100px;
+        display: flex;
+        align-items: center;
+    }
+    #logo img {
+        width: 30%;
+    }
+
+    #logo h1 {
+        font-size: inherit;
+    }
+    #containerequipe {
+        width: auto;
+    }
+
+    #container {
+        margin: 0px;
+    } 
+
+    #grande {
+        height: 10px;
+        width: auto;
+    }
+
+    #navegacao {
+        font-size: initial;
+    }
+
+    h2{
+        margin-left: 0px;
+    }
+
+    #tabela-dados {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .linhas{
+        font-size: 10px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .apagados{
+        display: none;
+    }
+
+    #mapa{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    #graf-pz{
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;       
+        width: 80%;
+    }
+    
+}
+
+@media (min-width: 280px) and (max-width: 653px) { 
+    #padrao {
+        font-size: 12px;
+    }
+    #padrao2 {
+        font-size: 12px;
+    }
+    #padrao1 {
+        font-size: 12px;
+    }
+
+    #navegacao {
+        font-size: small;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    #graf-pz{
+        margin-left: auto;
+        margin-right: auto;    
+        width: 600px;
+    }
+
+    #mapa{
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+    }
+
+    .linhas{
+        font-size: 10px;
+        padding: 5px;
+        margin: 0px;
+    }
 }

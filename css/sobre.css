@@ -31,3 +31,82 @@ span{
     display: flex;
     flex-direction: row;
 }
+
+@media (max-width:1280px) AND (min-width:215px) {
+    body{
+        margin: 0px;
+    }
+    header {
+        width: 100%;
+        padding: 0px;
+    }
+    #logo {
+        width: 100px;
+        display: flex;
+        align-items: center;
+    }
+    #logo img {
+        width: 30%;
+    }
+
+    #logo h1 {
+        font-size: inherit;
+    }
+    #container-sb {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    #container-sb p{
+        font-size: 10px;
+    }
+
+
+    #grande {
+        height: 10px;
+        width: auto;
+    }
+
+    #navegacao {
+        font-size: initial;
+    }
+
+    h2{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #container-sb img{
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        width: 300px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 653px) { 
+    #padrao {
+        font-size: 12px;
+    }
+    #padrao2 {
+        font-size: 12px;
+    }
+    #padrao1 {
+        font-size: 12px;
+    }
+
+    #navegacao {
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    #container-sb p{
+        font-size: 20px;
+    }
+}
